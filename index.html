@@ -13,7 +13,7 @@
     <form id="roundsInput">
         <h1>How many rounds would you like to play?</h1>
         <input type="number" id="nRoundsInput">
-        <button id="nRoundsBtn">Play!</button>
+        <button id="nRoundsBtn" type="button">Play!</button>
     </form>
 
 
@@ -23,28 +23,28 @@
                 What's your play?
             </h1>
             <form id="playInput">
-                <input type="image" id="playRock" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rock-paper-scissors_%28rock%29.png/240px-Rock-paper-scissors_%28rock%29.png">
-                <input type="image" id="playScissors" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Rock-paper-scissors_%28paper%29.png/240px-Rock-paper-scissors_%28paper%29.png">
-                <input type="image" id="playPaper" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rock-paper-scissors_%28scissors%29.png/240px-Rock-paper-scissors_%28scissors%29.png">
+                <img id="playRock" class="inputImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rock-paper-scissors_%28rock%29.png/240px-Rock-paper-scissors_%28rock%29.png">
+                <img id="playScissors" class="inputImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Rock-paper-scissors_%28paper%29.png/240px-Rock-paper-scissors_%28paper%29.png">
+                <img id="playPaper" class="inputImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rock-paper-scissors_%28scissors%29.png/240px-Rock-paper-scissors_%28scissors%29.png">
                 <br>
-                <button id="reset">Reset</button>
+                <button id="resetBtn" type="button">Reset</button>
             </form>
         </div>
         <div id="results">
-            <h1 id="resultsTitle"></h1>
+            <h1 id="resultsTitle">Let's Start!</h1>
             <table id="resultsTable">
                 <tr>
                     <th>Round</th>
                     <th>You</th>
-                    <th id="currentScore"></th>
+                    <th id="currentScore">0:0</th>
                     <th>Computer</th>
                 </tr>
-                <tr>
-                    <td>1</td>
+                <!-- <tr> -->
+                    <!-- <td>1</td>
                     <td class="win"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rock-paper-scissors_%28scissors%29.png/240px-Rock-paper-scissors_%28scissors%29.png"></td>
                     <td class="win">-</td>
-                    <td class="win"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rock-paper-scissors_%28scissors%29.png/240px-Rock-paper-scissors_%28scissors%29.png"></td>
-                </tr>
+                    <td class="win"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rock-paper-scissors_%28scissors%29.png/240px-Rock-paper-scissors_%28scissors%29.png"></td> -->
+                <!-- </tr> -->
             </table>
         </div>
     </div>

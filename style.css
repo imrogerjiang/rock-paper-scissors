@@ -32,6 +32,22 @@
 
     text-align: center;
 }
+.inputImg, .recordImg{
+    height: 150px;
+    width: 150px;
+    border-radius:5px;
+}
+.inputImg{
+    border: 2px solid darkgrey;
+    margin: 20px;
+    background-color: white;
+    opacity: 70%;
+}
+.inputImg:hover{
+    border: 2px solid orange;
+    opacity: 100%;
+    cursor: pointer;
+}
 .win{
     background-color: lightgreen;
     color: darkgreen;
@@ -77,16 +93,3 @@ img{
 
 
 /* Attributes */
-[type="image"]{
-    height: 150px;
-    width: 150px;
-    border-radius:5px;
-    border: 2px solid darkgrey;
-    margin: 20px;
-    background-color: white;
-    opacity: 70%;
-}
-[type="image"]:hover{
-    border: 2px solid orange;
-    opacity: 100%;
-}
